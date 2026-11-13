@@ -1,0 +1,23 @@
+---
+const clients = [
+  'Zayed National Museum',
+  'ADGM',
+  'Abu Dhabi Finance Week',
+  'WAGMI Games',
+  'LMCC',
+  'Direct Macro',
+];
+---
+
+<section class="shell" aria-label="Organizations and platforms delivered">
+  <div class="reveal flex flex-col gap-5 border-y border-line py-6 sm:flex-row sm:items-center sm:justify-between">
+    <p class="shrink-0 text-xs font-medium tracking-wider uppercase text-muted sm:max-w-[16ch]">
+      Delivered for teams &amp; platforms
+    </p>
+    <ul class="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm font-medium text-muted">
+      {clients.map((name) => (
+        <li class="transition hover:text-body">{name}</li>
+      ))}
+    </ul>
+  </div>
+</section>
