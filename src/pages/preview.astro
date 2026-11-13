@@ -1,7 +1,11 @@
 ---
+import Articles from '@/components/home/Articles.astro';
+import FAQ from '@/components/home/FAQ.astro';
 import Hero from '@/components/home/Hero.astro';
+import LogoStrip from '@/components/home/LogoStrip.astro';
 import Services from '@/components/home/Services.astro';
 import Testimonials from '@/components/home/Testimonials.astro';
+import WorkingTogether from '@/components/home/WorkingTogether.astro';
 import Icon from '@/components/ui/Icon.astro';
 import SectionHead from '@/components/ui/SectionHead.astro';
 import ProjectCard from '@/components/work/ProjectCard.astro';
@@ -15,8 +19,10 @@ const selected = projects.toSorted((a, b) => Number(b.data.featured) - Number(a.
 
 <BaseLayout>
   <Hero />
+  <LogoStrip />
+  <WorkingTogether />
 
-  <section id="work" class="shell" aria-labelledby="work-title">
+  <section id="work" class="shell mt-28 sm:mt-36" aria-labelledby="work-title">
     <SectionHead id="work-title" eyebrow={work.eyebrow} title={work.title} text={work.text}>
       {projects.length > selected.length && (
         <a class="btn btn-ghost" href="/work/">
@@ -34,4 +40,6 @@ const selected = projects.toSorted((a, b) => Number(b.data.featured) - Number(a.
 
   <Services />
   <Testimonials />
+  <Articles />
+  <FAQ />
 </BaseLayout>
