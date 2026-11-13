@@ -1,0 +1,68 @@
+---
+import Icon from '@/components/ui/Icon.astro';
+import { siteConfig } from '@/config/site';
+
+const faqs = [
+  {
+    q: 'Which roles and engagement models are you open to?',
+    a: 'I work across Senior Technical Project Manager, Scrum Master, and Product Manager roles—full-time remote (MENA, US, EU overlap) as well as fractional delivery leadership for complex builds.',
+  },
+  {
+    q: 'How do you handle fixed-price vs. time-and-materials (T&M) projects?',
+    a: 'For fixed-price SOWs, I establish strict work breakdown structures, cost baselines, and change-control gates early. For evolving products, I structure T&M or SLA-governed retainers with transparent sprint reporting.',
+  },
+  {
+    q: 'Which project tools and engineering workflows do you work in?',
+    a: 'Day to day, I manage backlogs, sprints, and releases in Jira and Azure DevOps—alongside Sitecore, Optimizely DXP, Figma, and automated triage workflows across Microsoft Teams and email.',
+  },
+  {
+    q: 'Can you step into an in-flight project that is slipping?',
+    a: 'Yes. In the first week, I audit the active backlog, surface critical-path dependencies and risks, reset sprint cadences with engineering and QA, and establish a clear weekly reporting rhythm for stakeholders.',
+  },
+  {
+    q: 'How do you manage distributed teams across time zones?',
+    a: 'I have led 25+ specialists across MENA, North America, and Europe using asynchronous documentation, clear acceptance criteria, and focused overlap windows for sprint planning, demos, and blocker resolution.',
+  },
+];
+---
+
+<section id="faq" class="shell mt-28 sm:mt-36" aria-labelledby="faq-title">
+  <div class="grid gap-12 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
+    <div class="reveal">
+      <p class="text-xs font-medium tracking-wider uppercase text-muted">FAQ</p>
+      <h2 id="faq-title" class="mt-3 text-section">
+        Questions asked before <span class="serif">working together.</span>
+      </h2>
+
+      <div class="mt-8 rounded-card border border-line bg-surface p-6 sm:p-7">
+        <h3 class="text-title">Not sure if it’s a fit?</h3>
+        <p class="mt-2 text-sm text-muted">
+          Share a short note about the role, team size, or delivery challenge. I’ll reply directly with how I can help.
+        </p>
+        <div class="mt-5">
+          <a class="btn btn-primary" href={`mailto:${siteConfig.author.email}`}>
+            Write to me
+            <Icon name="arrow-right" class="icon-nudge size-4" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal divide-y divide-line border-y border-line">
+      {faqs.map((item) => (
+        <details class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-title">
+            <span>{item.q}</span>
+            <span
+              class="grid size-8 shrink-0 place-items-center rounded-full border border-line text-base leading-none transition group-open:rotate-45 group-open:border-transparent group-open:bg-accent group-open:text-on-accent"
+              aria-hidden="true"
+            >
+              +
+            </span>
+          </summary>
+          <p class="mt-3 pr-10 text-body">{item.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
