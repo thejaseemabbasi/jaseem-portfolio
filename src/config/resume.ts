@@ -1,61 +1,60 @@
 import figma from '@/assets/logos/figma.svg';
-import framer from '@/assets/logos/framer.svg';
 import shopify from '@/assets/logos/shopify.svg';
-import webflow from '@/assets/logos/webflow.svg';
 
 export const resume = {
   eyebrow: 'Resume',
-  title: '10+ years shaping digital products through UX, UI, and',
-  highlight: 'systems thinking.',
-  text: 'My work centres on product clarity: bringing structure to messy workflows, overloaded interfaces, and growing systems that need to scale without becoming harder to use.',
+  title: '6+ years leading enterprise CMS, mobile, web, and game',
+  highlight: 'delivery.',
+  text: 'Technical Project Manager, Certified Scrum Master, and Product Manager experienced in governing multi-million-dollar engagements, cross-functional teams, and global launches across MENA, North America, and Europe.',
   snapshot: [
-    { label: 'Location', value: 'Lisbon, Portugal' },
-    { label: 'Focus', value: 'UX and product design' },
-    { label: 'Specialties', value: 'Dashboards, workflows, design systems' },
-    { label: 'Languages', value: 'English, Portuguese, Romanian' },
+    { label: 'Location', value: 'Karachi, Pakistan (Remote Worldwide)' },
+    { label: 'Focus', value: 'Technical PM, Scrum & Product Management' },
+    { label: 'Domains', value: 'Enterprise CMS, Mobile, Web & Games' },
+    { label: 'Languages', value: 'English, Urdu' },
   ],
   experience: [
     {
-      role: 'Lead Product Designer',
-      company: 'Independent',
-      period: '2021 - Present',
-      text: 'Leading interface design, product strategy, and design systems work for SaaS and service platforms across legal, nonprofit, and property.',
+      role: 'Project Manager',
+      company: 'Technyx Systems',
+      period: 'Nov 2025 - Present',
+      text: 'Leading end-to-end delivery for the 7-language Zayed National Museum Sitecore CMS website and mobile apps, plus an AI-driven Digital Asset Management system for Abu Dhabi Finance Week (ADGM). Driving presales RFPs, WBS, cost estimation, and AI-assisted delivery operations.',
     },
     {
-      role: 'Senior Product Designer',
-      company: 'Northbound Studio',
-      period: '2017 - 2021',
-      text: "Designed workflows, dashboards, and multi-platform products for startup and enterprise clients. Built the studio's shared component library.",
+      role: 'Project Manager & Scrum Master',
+      company: 'OVRLOD Pvt Ltd',
+      period: 'Mar 2024 - Nov 2025',
+      text: 'Directed a $1M+ multi-site migration (5,000+ pages across 5 ADGM properties) to Optimizely DXP with a 25+ member team. Transitioned the account from a Fixed-Price SOW to SLA-governed maintenance, enforced vendor SLAs (-30% risk, -25% issues), and led Azure DevOps adoption across 20 specialists.',
     },
     {
-      role: 'UI/UX Designer',
-      company: 'In-house product teams',
-      period: '2014 - 2017',
-      text: 'Built core interface patterns, user flows, and production-ready visual systems for web and mobile products.',
+      role: 'Assistant PM / Scrum Master / Product Manager',
+      company: 'CUBIX',
+      period: 'Nov 2020 - Feb 2024',
+      text: 'Delivered web, mobile, and game products including the $1M+ WAGMI Defense title (20K+ downloads, 4.5 stars), LMCC mobile platform (+70% workflow efficiency), Direct Macro e-commerce revamp, PartyShark, Spot It, Second World, and MicroPets across Agile, Hybrid, and Waterfall models.',
     },
   ],
   capabilities: [
     {
-      title: 'Product strategy',
-      text: 'Framing problems, prioritizing experience decisions, and aligning product goals with user value.',
+      title: 'Project & risk governance',
+      text: 'Scope definition, WBS, cost baselines, Fixed-Price and T&M contracts, SLA enforcement, and presales RFP estimation.',
     },
     {
-      title: 'UI systems',
-      text: 'Interface languages that scale across flows, features, and implementation teams.',
+      title: 'Agile & product delivery',
+      text: 'Scrum ceremonies, sprint planning, backlog prioritization, PRD authoring, KPI dashboards, and release management.',
     },
     {
-      title: 'Execution',
-      text: 'Wireframes through high-fidelity UI, refinement, and developer-ready handoff.',
+      title: 'Platforms & AI operations',
+      text: 'Jira, Azure DevOps, Sitecore, Optimizely DXP, and automated daily triage and meeting-to-action workflows.',
     },
   ],
   education: [
-    { title: 'MA, Interaction Design', place: 'University of the Arts', period: '2014' },
-    { title: 'BA, Visual Communication', place: 'National University of Arts', period: '2012' },
+    { title: 'AI Fluency Framework & Foundations', place: 'Anthropic', period: '2026' },
+    { title: 'Certified Scrum Master (CSM)', place: 'Scrum Alliance', period: '2025 - 2027' },
+    { title: 'Product Roadmapping Micro-Certification (PRC™)', place: 'Product School', period: '2023' },
+    { title: 'Agile, Predictive & Generative AI PM', place: 'PMI', period: '2023' },
+    { title: 'B.S., Computer Science', place: 'University of Karachi', period: '2020' },
   ],
   tools: [
     { name: 'Figma', logo: figma, dark: false },
-    { name: 'Framer', logo: framer, dark: true },
-    { name: 'Webflow', logo: webflow, dark: false },
     { name: 'Shopify', logo: shopify, dark: false },
   ],
 };
