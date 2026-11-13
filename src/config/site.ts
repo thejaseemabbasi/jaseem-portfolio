@@ -4,34 +4,34 @@ export interface NavLink {
 }
 
 export const siteConfig = {
-  name: 'Maria',
-  title: 'Maria - Product designer portfolio',
+  name: 'Jaseem Abbasi',
+  title: 'Jaseem Abbasi - Technical Project, Product & Delivery Manager',
   description:
-    'Maria is a product designer who turns dense workflows and fuzzy requirements into clear, trustworthy digital products. Selected work, case studies, and resume.',
-  siteUrl: 'https://maria.xocoweb.workers.dev',
+    'Jaseem Abbasi is a Technical Project Manager, Certified Scrum Master, and Product Manager with six years of experience leading enterprise CMS, mobile, web, and game initiatives across MENA, North America, and Europe.',
+  siteUrl: 'https://thejaseemabbasi.com',
   language: 'en',
   locale: 'en_US',
   dateLocale: 'en-US',
   socialImage: '/og-image.png',
 
   author: {
-    name: 'Maria Ionescu',
-    role: 'Product Designer',
-    location: 'Lisbon, Portugal',
-    email: 'hello@example.com',
+    name: 'Jaseem Abbasi',
+    role: 'Technical Project, Product & Delivery Manager',
+    location: 'Karachi, Pakistan',
+    email: 'thejaseemabbasi@gmail.com',
   },
 
   /** The pill above the homepage headline. Set `enabled: false` to remove it. */
   availability: {
     enabled: true,
-    label: 'Available for new projects from January 2027',
+    label: 'Available for Senior PM, Scrum & Product Leadership',
   },
 
   /** The button at the end of the header and in the mobile menu. */
-  action: { label: 'Get in touch', href: 'mailto:hello@example.com' },
+  action: { label: 'Get in touch', href: 'mailto:thejaseemabbasi@gmail.com' },
 
   /** A PDF in `public/`, offered on the resume page. Leave empty to hide the button. */
-  resumePdf: '',
+  resumePdf: '/JaseemAbbasi-ProjectManager.pdf',
 
   /** The banner and preferences dialog. Set `enabled: false` to remove both. */
   cookieConsent: {
@@ -39,10 +39,8 @@ export const siteConfig = {
   },
 
   socials: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-    { label: 'Dribbble', href: 'https://dribbble.com/' },
-    { label: 'Behance', href: 'https://www.behance.net/' },
-    { label: 'Instagram', href: 'https://www.instagram.com/' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/jaseemabbasi/' },
+    { label: 'WhatsApp', href: 'https://wa.me/923331335258' },
   ] satisfies NavLink[],
 };
 
@@ -56,4 +54,4 @@ export const legalLinks: NavLink[] = [
   { label: 'Privacy', href: '/privacy/' },
   { label: 'Terms', href: '/terms/' },
   { label: 'Cookies', href: '/cookies/' },
-];
+];q
