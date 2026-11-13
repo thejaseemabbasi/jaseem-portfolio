@@ -1,39 +1,51 @@
 export const about = {
   eyebrow: 'About',
-  title: 'I make complicated things feel',
-  highlight: 'clear and easy to use.',
-  text: "I'm Maria, a product designer focused on turning dense workflows, fuzzy requirements, and overloaded interfaces into experiences people can navigate with confidence.",
-  portraitAlt: 'Portrait of Maria smiling at her desk',
+  title: 'I bring structure and calm to',
+  highlight: 'complex delivery.',
+  text: "I'm Jaseem Abbasi, a Technical Project Manager, Certified Scrum Master, and Product Manager focused on turning ambitious briefs and multi-team builds into predictable launches.",
+  portraitAlt: 'Portrait of Jaseem Abbasi',
   sections: [
     {
       title: 'Background',
       paragraphs: [
-        "Over the last ten years I've worked across SaaS, operations platforms, and internal tools, where the design challenge is rarely about making something look good. More often it's about helping people understand what matters, what to do next, and why the product deserves their trust.",
-        'I sit somewhere between product thinking, systems design, and interface craft. I care about hierarchy, pacing, and the small decisions that make an experience feel intentional rather than merely complete.',
+        'Over the last six years across Technyx Systems, OVRLOD, and CUBIX, I have led enterprise CMS transformations (Sitecore and Optimizely DXP), mobile applications, e-commerce platforms, and live game builds for clients across MENA, North America, and Europe.',
+        'With a foundation in Computer Science from the University of Karachi alongside Certified Scrum Master (CSM) and Product Roadmapping credentials, I bridge engineering reality and executive expectations without losing sight of commercial timelines.',
       ],
     },
     {
       title: 'How I work',
       paragraphs: [
-        'I work best in the messy middle: when requirements are incomplete, the product has started to sprawl, and the team needs someone to create clarity without oversimplifying the problem.',
-        'That usually means stepping back to understand the structure of the experience, deciding what deserves attention first, and building a visual system strong enough to carry that logic all the way to the final UI.',
+        'Most delivery challenges start before a single line of code is written. I focus on establishing clear scope, work breakdown structures, cost baselines, and realistic sprint cadences early—whether under fixed-price contracts or ongoing SLA-governed retainers.',
+        'Once a team is moving, my job is to keep priorities sharp, remove blockers, and surface risks early. Clear communication and empowered engineers consistently outperform heavy-handed micromanagement.',
       ],
     },
     {
       title: 'Focus',
       paragraphs: [
-        "I'm most at home in dashboards, workflow tools, AI-assisted interfaces, and products where removing friction has a measurable effect on how confident people feel.",
-        "If something is too dense, too noisy, or too hard to follow, that's usually where I do my best work.",
+        'I do my best work on high-stakes digital programs—multi-site migrations, multi-language platforms, and cross-functional product launches where multiple vendors, time zones, and business units need to stay aligned.',
+        'Alongside core Agile and predictive delivery, I build practical AI-assisted operations workflows—automating daily triage across Teams, Jira, and email, and converting stakeholder calls into structured action logs.',
       ],
     },
   ],
   principles: {
     title: 'Principles',
     items: [
-      { title: 'Clarity over cleverness', text: 'If a pattern needs explaining, it needs redesigning.' },
-      { title: 'Design the order', text: 'Sequence and hierarchy do more than any single screen.' },
-      { title: 'Show the work early', text: 'Rough and shared beats polished and late.' },
-      { title: 'Systems, then surfaces', text: 'Good components make good screens inevitable.' },
+      {
+        title: 'Clarity before commitment',
+        text: 'Scope, dependencies, and ownership should be agreed before a sprint begins.',
+      },
+      {
+        title: 'Surface risks early',
+        text: 'An honest conversation in week one is always cheaper than a missed launch in month three.',
+      },
+      {
+        title: 'Protect team focus',
+        text: 'Clean backlogs and stable priorities let engineering and QA do their best work.',
+      },
+      {
+        title: 'Governance without friction',
+        text: 'Process exists to make delivery predictable, never to slow the team down.',
+      },
     ],
   },
 };
