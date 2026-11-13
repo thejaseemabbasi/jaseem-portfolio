@@ -1,48 +1,48 @@
 export const hero = {
-  greeting: "Hi, I'm Maria.",
-  title: 'I design digital products that',
-  highlight: 'actually make sense.',
-  text: 'Ten-plus years helping teams turn messy problems into clear, useful experiences. Corporations, startups, scrappy independents: if there is a user confused somewhere, I want to fix that.',
+  greeting: "Hi, I'm Jaseem Abbasi.",
+  title: 'I lead complex digital programs with',
+  highlight: 'clarity and control.',
+  text: 'Six years guiding enterprise CMS, mobile, web, and game initiatives from early scoping to launch. Across MENA, North America, and Europe, I align engineering, product, and executive stakeholders so critical builds ship on schedule.',
   primary: { label: 'See selected work', href: '/#work' },
   secondary: { label: 'About me', href: '/about/' },
   facts: [
-    { value: '10+', label: 'years in product design' },
-    { value: '40+', label: 'products shipped' },
-    { value: '12', label: 'design systems built' },
+    { value: '6+', label: 'years leading digital delivery' },
+    { value: '$1M+', label: 'enterprise & game programs' },
+    { value: '25+', label: 'cross-functional specialists led' },
   ],
 };
 
 export const work = {
   eyebrow: 'Selected work',
   title: 'Case studies',
-  text: 'A few projects where clarity was the whole job: dense workflows, high stakes, and people who needed the product to get out of the way.',
+  text: 'Programs where disciplined scope, stakeholder alignment, and technical governance turned complex requirements into reliable launches.',
   /** How many featured case studies the homepage shows. */
   limit: 4,
 };
 
 export const services = {
   eyebrow: 'What I do',
-  title: 'From fuzzy brief to shipped product',
+  title: 'From early scoping to predictable delivery',
   items: [
     {
-      icon: 'lightbulb',
-      title: 'Product strategy',
-      text: 'Framing the real problem, mapping what users need first, and deciding what not to build.',
+      icon: 'layers',
+      title: 'Technical project management',
+      text: 'Defining scope, work breakdown structures, cost baselines, and risk governance across fixed-price and time-and-materials engagements.',
     },
     {
       icon: 'workflow',
-      title: 'UX and flows',
-      text: 'Research, journeys, and information architecture for workflows that carry real weight.',
+      title: 'Agile & Scrum leadership',
+      text: 'Structuring sprint cadences, backlog health, and Azure DevOps or Jira workflows that keep engineering, QA, and leadership aligned.',
     },
     {
-      icon: 'layers',
-      title: 'Design systems',
-      text: 'Tokens, components, and documentation that keep a growing product coherent.',
+      icon: 'lightbulb',
+      title: 'Product & presales scoping',
+      text: 'Authoring technical proposals, shaping product roadmaps, and balancing commercial objectives with engineering feasibility.',
     },
     {
       icon: 'pen-tool',
-      title: 'Interface craft',
-      text: 'High-fidelity UI, prototypes, and handoff details that survive contact with engineering.',
+      title: 'Delivery operations & AI workflows',
+      text: 'Streamlining daily triage across Teams, Jira, and email, and converting stakeholder discussions into structured action logs.',
     },
   ],
 };
@@ -53,28 +53,28 @@ export const testimonials = {
   items: [
     {
       quote:
-        'Maria took a dashboard our users tolerated and made it the part of the product they open first. She asked the questions nobody else on the team was asking.',
-      name: 'Daniel Brooks',
-      role: 'Head of Product, Nextpoint',
+        'He managed our projects efficiently, maintained clear communication, and empowered his team that made our process seamless and stress-free. Jaseem’s approach to project management combines creativity with strong organizational skills, allowing him to anticipate challenges and proactively address them.',
+      name: 'Manish Chitnis',
+      role: 'Digital Transformation Leader · Optimizely Client',
     },
     {
       quote:
-        'She has a rare way of making complicated systems feel calm. Our caseworkers stopped asking for training after the redesign shipped.',
-      name: 'Priya Shah',
-      role: 'Director of Operations, b.combs',
+        'I had the pleasure of working with Jaseem on the ADGM project. As a project manager, Jaseem demonstrated a strong eagerness to learn and contribute. He consistently showed initiative, a positive attitude, and a willingness to take on new challenges.',
+      name: 'Nikki Punjabi',
+      role: 'PMP, Optimizely & Sitecore MVP · ADGM Delivery Lead',
     },
     {
       quote:
-        'Equal parts strategist and craftsperson. Every review with Maria left us with fewer screens and a clearer product.',
-      name: 'Lukas Weber',
-      role: 'Founder, Nestara',
+        'He worked alongside senior executives from Electronic Arts (such as Brent Pease, former DoP at EA) and stood his ground, successfully managing a team of over 15 resources for a project that I would definitely classify as "complex".',
+      name: 'Kostas Kroustaloudis',
+      role: 'Co-Founder & COO, WAGMI Game Co.',
     },
   ],
 };
 
 export const closing = {
   eyebrow: "Let's work together",
-  title: 'Got something worth building?',
-  highlight: "Let's talk.",
-  text: 'I take on a few product design engagements each quarter, from a focused audit to a full redesign. Tell me what you are working on.',
+  title: 'Ready to bring structure to your next',
+  highlight: 'initiative?',
+  text: 'Whether you are hiring for a Technical Project Manager, Scrum Master, or Product Manager—or need steady delivery leadership for an upcoming launch—I welcome a conversation.',
 };
