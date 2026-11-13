@@ -54,4 +54,4 @@ export const legalLinks: NavLink[] = [
   { label: 'Privacy', href: '/privacy/' },
   { label: 'Terms', href: '/terms/' },
   { label: 'Cookies', href: '/cookies/' },
-];q
+];
